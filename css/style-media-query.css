@@ -1,0 +1,136 @@
+/* Navbar */
+@media (max-width: 768px) {
+
+    .navbar {
+        border-bottom: none;
+        overflow: visible
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #333
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        background: #FFF;
+        text-align: center;
+        border-top: none
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        height: auto;
+        line-height: 20px
+    }
+
+}
+
+/* Navbar */
+
+/* Start carousel Home */
+
+@media screen and (max-width: 1024px) {
+
+    .carousel {
+        height: 350px
+    }
+
+    .carousel .carousel-inner .item .carousel-caption {
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    .carousel .carousel-inner .item .carousel-caption h1 {
+        font-size: 27px;
+        margin: auto
+    }
+
+    .carousel .carousel-inner .item .carousel-caption h3 {
+        font-size: 18px;
+        padding: 5px;
+        margin: auto
+    }
+
+    .carousel .carousel-inner .item .carousel-caption button {
+        margin-top: 10px;
+        background: rgb(0, 0, 0, .5);
+    }
+
+}
+
+/* End carousel Home */
+
+/* Start About */
+
+@media screen and (max-width: 1024px) {
+
+    .about {
+        padding: 25px 0;
+    }
+
+
+    .about .about-form {
+        padding-top: 50px
+    }
+
+
+    .about .about-form .form div {
+        margin-left: 0;
+    }
+}
+
+/* End About */
+
+/* Start Teachers */
+
+@media screen and (max-width: 1024px) {
+    .teachers .teacher-in {
+        margin-bottom: 20px
+    }
+}
+
+/* End Teachers */
+
+/* Start Courses */
+
+
+@media screen and (min-width: 1px) and (max-width: 663px) {
+
+    .courses .item .images .date-time span:first-of-type {
+        padding-right: 80%
+    }
+
+    .courses .item .name h4 {
+        height: 50px
+    }
+
+    .courses .item .price .name {
+        width: 50%;
+        margin: 8% 0 0
+    }
+
+    .courses .item .price .pricein {
+        float: none;
+        width: 100%;
+        clear: both;
+        margin: 0
+    }
+
+    .courses .item .price .pricein span {
+        width: 100%
+    }
+
+}
+
+/* End Courses */
+
+/* Start Reviews */
+
+@media screen and (min-width: 600px) and (max-width: 736px) {
+
+    .reviews .item .description {
+        height: 88px
+    }
+}
+
+/* End Reviews */
